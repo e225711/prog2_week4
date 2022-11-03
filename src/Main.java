@@ -5,11 +5,7 @@ public class Main {
     Chatbot bot2 = new Chatbot("舞武");
     bot1.greeting();
     bot2.greeting();
-    bot2.name = "小波蔵";
+    bot2.setName("小波蔵");
     bot2.greeting();
-    
-
-
-
   }
 }

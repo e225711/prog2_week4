@@ -10,4 +10,10 @@ public class Chatbot {
   public void greeting() {
     System.out.println("はじめまして" + this.name + "です、よろしくおねがいします");
   }
+  public void setName(String name) {
+    this.name = name;
+  }
+  public String getName() {
+    return this.name;
+  }
 }
