@@ -11,7 +11,12 @@ public class Chatbot {
     System.out.println("はじめまして" + this.name + "です、よろしくおねがいします");
   }
   public void setName(String name) {
-    this.name = name;
+    if (name == "差別用語") {
+      System.out.println("禁止されています");
+    }else {
+      System.out.println("ボット名を" + this.name + "から" + name + "へと変更します");
+      this.name = name;
+    }
   }
   public String getName() {
     return this.name;

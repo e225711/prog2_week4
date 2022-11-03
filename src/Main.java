@@ -7,5 +7,7 @@ public class Main {
     bot2.greeting();
     bot2.setName("小波蔵");
     bot2.greeting();
+    bot2.setName("差別用語");
+    bot2.setName("黒崎一護");
   }
 }
